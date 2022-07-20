@@ -3,7 +3,7 @@ services:
 - name: medusa-server
   environment_slug: node-js
   git:
-    repo_clone_url: https://github.com/medusajs/medusa-starter-default.git
+    repo_clone_url: https://github.com/shahednasser/medusa-starter-default.git
     branch: feat-deploy-digitalocean
   envs:
   - key: DB_USERNAME
@@ -29,5 +29,3 @@ services:
 databases:
 - name: db
   engine: PG
-- name: redis-db
-  engine: REDIS
