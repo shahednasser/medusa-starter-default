@@ -32,3 +32,5 @@ spec:
   databases:
   - name: db
     engine: PG
+  - name: redis-db
+    engine: REDIS
