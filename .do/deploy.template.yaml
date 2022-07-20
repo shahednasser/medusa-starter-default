@@ -15,8 +15,6 @@ spec:
       value: ${db.HOSTNAME}
     - key: DB_PORT
       value: ${db.PORT}
-    - key: DB_PORT
-      value: ${db.PORT}
     - key: DB_DATABASE
       value: ${db.DATABASE}
     - key: REDIS_URL
