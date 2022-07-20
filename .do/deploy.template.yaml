@@ -22,7 +22,11 @@ spec:
     - key: REDIS_URL
       value: ${redis-db.DATABASE_URL}
     - key: JWT_SECRET
-      value: secret
+      value: "secret"
+    - key: COOKIE_SECRET
+      value: "secret"
+    - key: NPM_CONFIG_PRODUCTION
+      value: "false"
     routes:
     - path: /
   databases:
