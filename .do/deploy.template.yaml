@@ -6,3 +6,5 @@ spec:
     git:
       repo_clone_url: https://github.com/medusajs/medusa-starter-default.git
       branch: feat-deploy-digitalocean
+    routes:
+    - path: /
